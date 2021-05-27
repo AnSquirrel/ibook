@@ -8,11 +8,11 @@
 
 # 样式效果
 
-<div align=center><img align="center" src="https://github.com/zhbi98/PotPlayer/blob/master/photos/ibook01.jpg" alt="GitHub" title="GitHub,Social Coding" width="977" height="709"/></div>
+<div align=center><img align="center" src="https://github.com/zhbi98/ibook/blob/master/photos/ibook01.jpg" alt="GitHub" title="GitHub,Social Coding" width="977" height="709"/></div>
 
-<div align=center><img align="center" src="https://github.com/zhbi98/PotPlayer/blob/master/photos/ibook02.jpg" alt="GitHub" title="GitHub,Social Coding" width="977" height="709"/></div>
+<div align=center><img align="center" src="https://github.com/zhbi98/ibook/blob/master/photos/ibook02.jpg" alt="GitHub" title="GitHub,Social Coding" width="977" height="709"/></div>
 
-<div align=center><img align="center" src="https://github.com/zhbi98/PotPlayer/blob/master/photos/ibook03.jpg" alt="GitHub" title="GitHub,Social Coding" width="977" height="709"/></div>
+<div align=center><img align="center" src="https://github.com/zhbi98/ibook/blob/master/photos/ibook03.jpg" alt="GitHub" title="GitHub,Social Coding" width="977" height="709"/></div>
 
 
 # 运行环境
