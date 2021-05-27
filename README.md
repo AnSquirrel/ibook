@@ -1,83 +1,54 @@
 
-# About
+# 关于
 
-> ibook
+> 本项目是使用 python 所开发的一个记事本，这个记事本主要参考 windows 中的记事本而开发。
+实现这个记事本最初是希望通过这个项目来研究 python 内部包含的 tkinter 图形界面包。通过
+本项目的开发来探索 tkinter 的使用技巧。
 
 
-owon@mark MINGW64 /g/Others/python/src/pysource/ibook (master)
-$ git pull origin master --allow-unrelated-histories
-From github.com:zhbi98/ibook
- * branch            master     -> FETCH_HEAD
-error: Your local changes to the following files would be overwritten by merge:
-        ibook.py
-Please commit your changes or stash them before you merge.
-Aborting
+# 样式效果
 
-owon@mark MINGW64 /g/Others/python/src/pysource/ibook (master)
-$ git add ibook.py
+<div align=center><img align="center" src="https://github.com/zhbi98/PotPlayer/blob/master/photos/ibook01.jpg" alt="GitHub" title="GitHub,Social Coding" width="977" height="709"/></div>
 
-owon@mark MINGW64 /g/Others/python/src/pysource/ibook (master)
-$ git add .
+<div align=center><img align="center" src="https://github.com/zhbi98/PotPlayer/blob/master/photos/ibook02.jpg" alt="GitHub" title="GitHub,Social Coding" width="977" height="709"/></div>
 
-owon@mark MINGW64 /g/Others/python/src/pysource/ibook (master)
-$ git commit -m "Add README.md"
-[master 800ee24] Add README.md
- 4 files changed, 711 insertions(+), 712 deletions(-)
- create mode 100644 __pycache__/message.cpython-37.pyc
- create mode 100644 __pycache__/power.cpython-37.pyc
- create mode 100644 __pycache__/updata.cpython-37.pyc
- rewrite ibook.py (94%)
+<div align=center><img align="center" src="https://github.com/zhbi98/PotPlayer/blob/master/photos/ibook03.jpg" alt="GitHub" title="GitHub,Social Coding" width="977" height="709"/></div>
 
-owon@mark MINGW64 /g/Others/python/src/pysource/ibook (master)
-$ git push origin master
-To github.com:zhbi98/ibook.git
- ! [rejected]        master -> master (non-fast-forward)
-error: failed to push some refs to 'git@github.com:zhbi98/ibook.git'
-hint: Updates were rejected because the tip of your current branch is behind
-hint: its remote counterpart. Integrate the remote changes (e.g.
-hint: 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
-owon@mark MINGW64 /g/Others/python/src/pysource/ibook (master)
-$ git pull origin master --allow-unrelated-histories
-From github.com:zhbi98/ibook
- * branch            master     -> FETCH_HEAD
-CONFLICT (add/add): Merge conflict in updata.py
-Auto-merging updata.py
-CONFLICT (add/add): Merge conflict in power.py
-Auto-merging power.py
-CONFLICT (add/add): Merge conflict in message.py
-Auto-merging message.py
-CONFLICT (add/add): Merge conflict in ibook.py
-Auto-merging ibook.py
-Automatic merge failed; fix conflicts and then commit the result.
+# 运行环境
 
-owon@mark MINGW64 /g/Others/python/src/pysource/ibook (master|MERGING)
-$ git add .
-warning: LF will be replaced by CRLF in ibook.py.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in message.py.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in power.py.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in updata.py.
-The file will have its original line endings in your working directory
+本项目使用 Anconda python 集成开发环境开发，使用 Anconda 可以不需要考虑一些依赖包的安装。当然也可以直接安装
+python 官方开发的 IDLE 来运行本项目，本项目所使用的都是基于 python 内部已有的包，所以你并不需要再安装其余的扩展
+包，所以 python 官方开发的 IDLE 可以直接运行本项目。运行本项目只需将 ibook.py 载入 python IDLE 或 Anconda 直接运行即可。
 
-owon@mark MINGW64 /g/Others/python/src/pysource/ibook (master|MERGING)
-$ git commit -m "Add README.md"
-[master f0e4f47] Add README.md
+- [pyhon下载](https://www.python.org/downloads/)
+- [Anconda下载](https://anaconda.en.softonic.com/)
 
-owon@mark MINGW64 /g/Others/python/src/pysource/ibook (master)
-$ git push origin master
-Enumerating objects: 30, done.
-Counting objects: 100% (30/30), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (24/24), done.
-Writing objects: 100% (25/25), 14.53 KiB | 1.61 MiB/s, done.
-Total 25 (delta 9), reused 0 (delta 0)
-remote: Resolving deltas: 100% (9/9), completed with 1 local object.
-To github.com:zhbi98/ibook.git
-   5fe0f23..f0e4f47  master -> master
 
-owon@mark MINGW64 /g/Others/python/src/pysource/ibook (master)
-$
+# 许可证
+
+本项目遵循 [MIT](https://opensource.org/licenses/MIT) 开源许可协议。
+
+```
+MIT License
+
+Copyright (c) 2020 zhbi98
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+```
